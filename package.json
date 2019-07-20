@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-cli",
+  "version": "0.1.0",
+  "description": "A nodejs cli",
+  "main": "cli.js",
+  "scripts": {
+    "test": "mocha --recursive tests"
+  },
+  "bin": {
+    "cli": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandiheath/nodejs-cli.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "template"
+  ],
+  "author": "Nandi Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandiheath/nodejs-cli/issues"
+  },
+  "homepage": "https://github.com/nandiheath/nodejs-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "dotenv": "^8.0.0"
+  }
+}
